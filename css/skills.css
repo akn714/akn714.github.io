@@ -64,9 +64,10 @@
     /* border: 1px solid #4ecdd45e; */
     /* border: 1px solid #ff00ef82; */
     /* border: 1px solid #1e00ff; */
-    border-bottom: 1px solid #1e00ff;
-    border-bottom: 1px solid #ff00a7;
-    border-radius: 10px;
+    /* border-bottom: 1px solid #1e00ff;
+    border-bottom: 1px solid #ff00a7; */
+    border-left: 2px solid #ff00a7;
+    /* border-radius: 10px; */
     /* color: #4ecdd4; */
     color: #ff7800;
     color: #ff00ef82;
@@ -81,6 +82,7 @@
     background-color: #ff048114;
     background-color: #ff00a71a;
     backdrop-filter: blur(4px);
+    box-shadow: 0px 0px 10px rgba(214, 73, 192, 0.7);
 
     margin: 50px auto;
 
