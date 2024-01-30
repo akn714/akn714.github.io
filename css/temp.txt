@@ -1,0 +1,45 @@
+
+.skill-container {
+    /* height: 80%; */
+    min-width: 300px;
+    max-width: 60%;
+    /* background-color: red; */
+    /* border: 1px solid black; */
+    /* border: 1px solid #4ecdd45e; */
+    /* border: 1px solid #ff00ef82; */
+    /* border: 1px solid #1e00ff; */
+    /* border-bottom: 1px solid #1e00ff;
+    border-bottom: 1px solid #ff00a7; */
+    border-left: 2px solid #ff00a7;
+    /* border-radius: 10px; */
+    /* color: #4ecdd4; */
+    color: #ff7800;
+    color: #ff00ef82;
+    /* color: #ff00ef; */
+    color: hsl(247, 100%, 50%);
+    color: #ff50a7;
+    color: #ff00a7;
+    /* background: #091919; */
+    /* background: #ecbadf; */
+    /* background: #c0baec; */
+    background-color: #3800ff17;
+    background-color: #ff048114;
+    background-color: #ff00a71a;
+    backdrop-filter: blur(4px);
+    box-shadow: 0px 0px 10px rgba(214, 73, 192, 0.7);
+
+    margin: 50px auto;
+
+    min-height: 300px;
+    /* Fixed height */
+    width: 750px;
+    /* Fixed width */
+
+    display: flex;
+    /* justify-content: space-around; */
+    align-content: center;
+    flex-direction: column;
+
+    padding: 25px;
+    
+}
