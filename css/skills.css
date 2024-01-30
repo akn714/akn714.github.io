@@ -65,16 +65,21 @@
     /* border: 1px solid #ff00ef82; */
     /* border: 1px solid #1e00ff; */
     border-bottom: 1px solid #1e00ff;
+    border-bottom: 1px solid #ff00a7;
     border-radius: 10px;
     /* color: #4ecdd4; */
     color: #ff7800;
     color: #ff00ef82;
     /* color: #ff00ef; */
-    color: #1e00ff;
+    color: hsl(247, 100%, 50%);
+    color: #ff50a7;
+    color: #ff00a7;
     /* background: #091919; */
     /* background: #ecbadf; */
     /* background: #c0baec; */
     background-color: #3800ff17;
+    background-color: #ff048114;
+    background-color: #ff00a71a;
     backdrop-filter: blur(4px);
 
     margin: 50px auto;
