@@ -62,6 +62,7 @@
     backdrop-filter: blur(4px);
     border-left: 2px solid;
     box-shadow: 0px 0px 10px rgba(73,106, 214, 0.7);
+    box-shadow: 0px 0px 10px rgba(78, 205, 212, 0.48);
 
     margin: 50px auto;
 
@@ -86,6 +87,7 @@
 }
 .view-on-github a{
     color: yellow;
+    color: hotpink;
     text-decoration: none;
 }
 .view-on-github a:hover{

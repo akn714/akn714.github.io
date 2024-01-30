@@ -28,6 +28,7 @@ div#main > div {
     /* z-index: 1; */
     /* background: red; */
     left: -50%;
+    left: 0%;
     transition: 1s;
     margin-left: 100px;
 }
