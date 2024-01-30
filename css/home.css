@@ -100,6 +100,8 @@ div#main > div {
     color: #4ecdd4;
     background: transparent;
     border-bottom: 1px solid #4ecdd4;
+    border: 1px solid #05dcff;
+    box-shadow: 0px 0px 10px rgba(78, 99, 212, 0.48);
 }
 
 .get-in-touch{
@@ -118,6 +120,9 @@ div#main > div {
     border: 1px solid #4ecdd4;
     border-radius: 0;
     background: #091919;
+    background: #0919196e;
+    backdrop-filter: blur(4px);
+    box-shadow: 0px 0px 10px rgba(78, 99, 212, 0.48);
 }
 
 .right{
