@@ -23,7 +23,7 @@ document.querySelector('.navbar-links').style.width = '0%'
 document.querySelector('.navbar-links').style.paddingLeft = '0px'
 
 window.onload = function (e) {
-    document.querySelector('.navbar-links').style.width = '60%'
+    document.querySelector('.navbar-links').style.width = '0%'
     if (document.querySelector('.left')) document.querySelector('.left').style.left = '0';
 }
 
