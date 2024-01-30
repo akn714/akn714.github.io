@@ -1,0 +1,121 @@
+.main{
+    height: calc(100% - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+
+    height: 100%;
+}
+
+.section{
+    height: 100%;
+    width: 33.33%;
+    /* background-color: rgba(0, 0, 0, 0.479); */
+    position: relative;
+}
+.mainSec{
+    background-color: transparent;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec1{
+    background: linear-gradient(90deg, #0000009c, #0000009c, transparent);
+    z-index: 1;
+}
+.sec3{
+    background: linear-gradient(-90deg, #0000009c, #0000009c, transparent);
+    z-index: 1;
+}
+
+.about-containers{
+    height: 100%;
+    /* width: 100%; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 150px;
+    position: relative;
+
+    padding-bottom: 30px;
+
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+.about-container{
+    /* height: 80%; */
+    min-width: 300px;
+    max-width: 60%;
+    /* background-color: red; */
+    /* border: 1px solid black; */
+    /* border: 1px solid #4ecdd45e; */
+    color: #4ecdd4;
+    /* background: #091919; */
+
+    margin: 50px auto;
+
+    /* height: 200px; */
+    width: 750px;
+
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: column;
+
+    padding: 25px;
+    gap: 20px;
+    background-color: #000000d4;
+    backdrop-filter: blur(4px);
+}
+
+.about-me-containers{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-me{
+    color: #b3b3b3;
+    line-height: 25px;
+    font-family: sans-serif;
+}
+.download-cv button{
+    height: 40px;
+    width: 150px;
+    color: #091919;
+    background-color: yellow;
+    border: none;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .about-containers{
+        max-width: 90%; /* Smaller width on smaller screens */
+        padding-bottom: 100px;
+    }
+
+    .about-container{
+        height: auto;
+        width: auto;
+        min-width: auto;
+        max-width: none;
+        gap: 14px;
+        padding: 20px;
+    }
+
+    .about-title h2{
+        font-size: 20px;
+    }
+    .about-desc{
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+}
+
