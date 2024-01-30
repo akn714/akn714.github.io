@@ -54,8 +54,13 @@
     background-color: red;
     border: 1px solid black;
     border: 1px solid #4ecdd45e;
+    border: 1px solid #4ecdd414;
     color: #4ecdd4;
     background: #091919;
+    background: #09191969;
+    background: #00000069;
+    backdrop-filter: blur(4px);
+    border-left: 2px solid;
 
     margin: 50px auto;
 

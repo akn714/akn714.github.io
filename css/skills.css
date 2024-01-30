@@ -63,16 +63,19 @@
     /* border: 1px solid black; */
     /* border: 1px solid #4ecdd45e; */
     /* border: 1px solid #ff00ef82; */
-    border: 1px solid #1e00ff;
+    /* border: 1px solid #1e00ff; */
+    border-bottom: 1px solid #1e00ff;
     border-radius: 10px;
     /* color: #4ecdd4; */
     color: #ff7800;
     color: #ff00ef82;
     /* color: #ff00ef; */
     color: #1e00ff;
-    background: #091919;
+    /* background: #091919; */
     /* background: #ecbadf; */
-    background: #c0baec;;
+    /* background: #c0baec; */
+    background-color: #3800ff17;
+    backdrop-filter: blur(4px);
 
     margin: 50px auto;
 
@@ -87,6 +90,7 @@
     flex-direction: column;
 
     padding: 25px;
+    
 }
 
 .skill-icons{
