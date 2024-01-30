@@ -1,0 +1,63 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrolling on the whole page */
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #root{
+    height: 100vh;
+    background-color: #00040e;
+    background-color: #212428;
+    background-color: #e3ecff;
+  
+    background: url('/home/pio/Desktop/adarsh data 5 jan 2024/data 4 jan 2024/adars-Desktop/D drive data/coding/github/portfolio/public/wallpaper2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* #000000c2 */
+    
+    position: absolute;
+    /* overflow: hidden; */
+    width: 100vw;
+  
+  
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  
+  /* 1st phase */
+  /* .deco1{
+    position: absolute;
+    top: -250px;
+    right: -160px;
+    height: 1040px;
+    width: 1040px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .deco2{
+    position: absolute;
+    bottom: -400px;
+    left: -250px;
+    height: 820px;
+    width: 820px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  
+  @media screen and (max-width: 768px) {
+    #root{
+      overflow: hidden;
+    }
+  
+  }
+  
+  

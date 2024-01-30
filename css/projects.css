@@ -1,0 +1,115 @@
+.main{
+    height: calc(100% - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+
+    height: 100%;
+}
+
+.section{
+    height: 100%;
+    width: 33.33%;
+    /* background-color: rgba(0, 0, 0, 0.479); */
+    position: relative;
+}
+.mainSec{
+    background-color: transparent;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec1{
+    background: linear-gradient(90deg, #0000009c, #0000009c, transparent);
+    z-index: 1;
+}
+.sec3{
+    background: linear-gradient(-90deg, #0000009c, #0000009c, transparent);
+    z-index: 1;
+}
+
+.project-containers{
+    height: 100%;
+    /* width: 100%; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 150px;
+    position: relative;
+
+    padding-bottom: 30px;
+
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+.project-container{
+    height: 80%;
+    min-width: 300px;
+    max-width: 60%;
+    background-color: red;
+    border: 1px solid black;
+    border: 1px solid #4ecdd45e;
+    color: #4ecdd4;
+    background: #091919;
+
+    margin: 50px auto;
+
+    height: 200px; /* Fixed height */
+    width: 750px; /* Fixed width */
+
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: column;
+
+    padding: 25px;
+}
+
+.project-desc{
+    color: #b3b3b3;
+    line-height: 25px;
+}
+.view-on-github{
+    display: flex;
+    justify-content: end;
+}
+.view-on-github a{
+    color: yellow;
+    text-decoration: none;
+}
+.view-on-github a:hover{
+    /* color: rgba(255, 255, 0, 0.582); */
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .project-containers{
+        max-width: 90%; /* Smaller width on smaller screens */
+        padding-bottom: 100px;
+    }
+
+    .project-container{
+        height: auto;
+        width: auto;
+        min-width: auto;
+        max-width: none;
+        gap: 14px;
+        padding: 20px;
+    }
+
+    .project-title h2{
+        font-size: 20px;
+    }
+    .project-desc{
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+}
+

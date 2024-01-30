@@ -1,23 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Adarsh Kumar | Home</title>
-  </head>
-  <body>
-      
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/navbar.css">
+</head>
+
+<body>
+
     <div id="root">
-        
+        <!-- NAVBAR -->
+        <div id='navbar'>
+            <a href='/' class="navbar-profile" style="text-decoration: 'none'">
+                <!-- <img  class="navbar-profile-pic" src="./user-profile.png" alt="" /> -->
+                <div class="title">Adarsh Kumar</div>
+            </a>
+            <div class='navbar-links'>
+                <button class="burger" onclick=extend()>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </button>
+                <a href="./about.html" class="about">About</a>
+                <a href="./skills.html" class="skills">Skills</a>
+                <a href="./projects.html" class="projects">Projects</a>
+                <a href="./education.html" class="education">Education</a>
+                <a href="./contact.html" class="contact">Contact</a>
+            </div>
+        </div>
+        <!-- NAVBAR -->
+        <!-- MAIN -->
+        <!-- MAIN -->
     </div>
-      
-    <script type="module" src="./src/index.jsx"></script>
-      
+
+    <script src="js/navbar.js"></script>
+
     <style>
-      @font-face{
-        font-family: "Lovely Home";
-        src:local('Lovely Home'), url("./LovelyHome-9aBZ.ttf") format('truetype');
-      }
+        @font-face {
+            font-family: "Lovely Home";
+            src: local('Lovely Home'), url("./LovelyHome-9aBZ.ttf") format('truetype');
+        }
     </style>
-  </body>
+</body>
+
 </html>
