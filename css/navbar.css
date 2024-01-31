@@ -23,7 +23,7 @@
     /* color: #ff5400; */
     /* color: #cd1b1e; */
     color: hotpink;
-    font-family: "Lovely Home";
+    font-family: "Lovely Home" !important;
 }
 .navbar-profile img{
     height: 100%;
