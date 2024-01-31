@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
-.main{
+#main{
     height: calc(100% - 60px);
     display: flex;
     justify-content: center;
