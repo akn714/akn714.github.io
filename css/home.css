@@ -43,6 +43,7 @@ div#main > div {
     font-size: 100%;
     /* background: #48003682; */
     background: #88005382;
+    background: var(--theme-bg-light);
     height: 30px;
     /* box-shadow: 0px 0px 0px 0px #4a0102; */
 }
@@ -89,6 +90,7 @@ div#main > div {
     border: 1px solid #05dcff;
     border: 1px solid var(--theme-main-2);
     box-shadow: 0px 0px 10px rgba(78, 99, 212, 0.48);
+    box-shadow: 0px 0px 10px rgb(214 128 255 / 46%);
 }
 
 .get-in-touch{
@@ -102,7 +104,7 @@ div#main > div {
     color: transparent;
     background: none;
     border: 2px solid #6a2ae9;
-
+    
     color: var(--theme-main-2);
     border: 1px solid var(--theme-main-2);
     border-radius: 0;
@@ -110,6 +112,7 @@ div#main > div {
     background: #0919196e;
     backdrop-filter: blur(4px);
     box-shadow: 0px 0px 10px rgba(78, 99, 212, 0.48);
+    box-shadow: 0px 0px 10px rgb(214 128 255 / 46%);
 }
 
 .right{

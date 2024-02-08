@@ -31,7 +31,7 @@ function extend() {
     let navbarLinks = document.querySelector('.navbar-links');
     if (navbarLinks.style.width == '0%') {
         // document.querySelector('.burger').style.background = 'linear-gradient(45deg, #0c1bc7, #a734ff))'
-        document.querySelector('.burger').style.background = 'aqua'
+        document.querySelector('.burger').style.background = 'var(--theme-bg-light)'
         navbarLinks.style.width = '100%'
         document.querySelector('.navbar-links').style.paddingLeft = '20px'
     }

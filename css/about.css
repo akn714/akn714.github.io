@@ -68,8 +68,11 @@
     gap: 20px;
     background-color: #000000d4;
     background-color: #000000b0;
+    background-color: #0b0c0e;
+    border-radius: 10px;
     backdrop-filter: blur(4px);
     box-shadow: 0px 0px 10px rgba(214, 73, 192, 0.7);
+    box-shadow: 0px 0px 10px rgb(214 128 255 / 46%);
 }
 
 .about-me-containers{
@@ -87,6 +90,7 @@
     height: 40px;
     width: 150px;
     color: #091919;
+    color: #0b0c0e;
     background-color: var(--theme-main);
     border: none;
     font-size: 18px;
