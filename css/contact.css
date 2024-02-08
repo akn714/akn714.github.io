@@ -118,7 +118,7 @@
     }
 
     .contact-container{
-        height: 100%;
+        height: auto;
         width: auto;
         min-width: auto;
         max-width: none;
@@ -132,7 +132,7 @@
 
     .fields .message{
         max-height: none;
-        height: 190px;
+        height: 200px;
     }
 
 
