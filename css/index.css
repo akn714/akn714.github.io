@@ -1,3 +1,23 @@
+:root{
+  --theme-main: #ff6bb5;
+  --theme-main-2: #4ecdd4;
+  --theme-main-2: hotpink;
+  --theme-bg-light: #ffd4f7;
+  --theme-bg-dark: #091919;
+  /* --theme-main: #FF69B4;
+  --theme-main-2: #FF6969;
+  --theme-bg-light: #FF69FF;
+  --theme-bg-dark: #091919; */
+  --theme-main-2: rgb(198, 77, 255);
+  --theme-main: rgb(182, 26, 255);
+  --theme-bg-light: rgb(214, 128, 255);
+  --theme-bg-dark: #091919;
+
+  /* rgb(255, 26, 140)
+  rgb(255, 77, 166)
+  rgb(255, 128, 191) */
+}
+
 #main{
   /* background: gray; */
   height: calc(100% - 60px);
@@ -32,9 +52,9 @@ html, body {
     height: 100vh;
     background-color: #00040e;
     background-color: #212428;
-    background-color: #e3ecff;
+    /* background-color: #e3ecff;
   
-    background: url('../imgs/wallpaper3.jpeg');
+    background: url('../imgs/wallpaper3.jpeg'); */
     background-repeat: no-repeat;
     background-size: cover;
   

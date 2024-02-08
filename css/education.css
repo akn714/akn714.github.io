@@ -53,8 +53,8 @@
     max-width: 60%;
     /* background-color: red; */
     /* border: 1px solid black; */
-    /* border: 1px solid #4ecdd45e; */
-    color: #4ecdd4;
+    /* border: 1px solid var(--theme-main-2)5e; */
+    color: var(--theme-main-2);
     /* background: #091919; */
 
     margin: 50px auto;
