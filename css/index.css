@@ -56,6 +56,10 @@ body {
   box-sizing: border-box;
 }
 
+button{
+  cursor: pointer;
+}
+
 #root {
   /* height: 100vh; */
   background-color: #00040e;
@@ -172,8 +176,8 @@ body {
   }
 
   .deco-circle{
-    height: 30vh;
-    width: 30vh;
+    height: 20vh;
+    width: 20vh;
   }
   .one {
     border-radius: 0px 0px 70% 0px;
