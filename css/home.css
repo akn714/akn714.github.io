@@ -91,6 +91,8 @@ div#main > div {
     border: 1px solid var(--theme-main-2);
     box-shadow: 0px 0px 10px rgba(78, 99, 212, 0.48);
     box-shadow: 0px 0px 10px rgb(214 128 255 / 46%);
+
+    background-color: black;
 }
 
 .get-in-touch{
@@ -113,6 +115,14 @@ div#main > div {
     backdrop-filter: blur(4px);
     box-shadow: 0px 0px 10px rgba(78, 99, 212, 0.48);
     box-shadow: 0px 0px 10px rgb(214 128 255 / 46%);
+
+    background-color: var(--theme-main);
+    color: black;
+    justify-content: space-between;
+}
+
+.get-in-touch img{
+    height: 16px;
 }
 
 .right{
@@ -377,5 +387,8 @@ a.profiles {
     }
     .follow-me-on-github{   
         justify-content: space-between;
+    }
+    .get-in-touch img{
+        height: 18px;
     }
 }

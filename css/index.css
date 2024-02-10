@@ -130,8 +130,8 @@ body {
   width: 60vh;
   position: absolute;
   border-radius: 50%;
-  box-shadow: 0px 0px 60px 70px rgb(255 0 188);
-  background: rgb(255 0 188);
+  box-shadow: 0px 0px 60px 70px var(--theme-main) !important;
+  background: var(--theme-main) !important;
   z-index: 0;
 }
 
@@ -163,8 +163,8 @@ body {
   }
 
   .deco-circle{
-    height: 60vh;
-    width: 50vh;
+    height: 30vh;
+    width: 30vh;
   }
 
 }
