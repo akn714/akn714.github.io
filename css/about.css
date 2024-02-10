@@ -76,6 +76,11 @@
     box-shadow: 0px 0px 10px rgb(214 128 255 / 46%);
 }
 
+.about-title img{
+    height: 150px;
+    border-radius: 50%;
+}
+
 .about-me-containers{
     display: flex;
     flex-direction: column;
