@@ -381,6 +381,7 @@ a.profiles {
     .links{
         font-size: 16px;
         flex-direction: column;
+        margin-top: 10px;
     }
     .links a{
         width: 100%;
