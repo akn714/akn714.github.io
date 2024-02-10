@@ -26,10 +26,11 @@
   align-items: center;
   position: relative;
   font-family: 'Roboto', sans-serif;
+  z-index: 2;
 }
 
 #root::before {
-  /* content: ''; */
+  content: '';
   height: 100%;
   width: 100%;
   background: #0000007d;
@@ -37,6 +38,7 @@
   background: #000000a8;
   position: absolute;
   backdrop-filter: blur(2px);
+  z-index: 1;
 }
 
 html,
@@ -44,7 +46,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  /* overflow: hidden; */
+  overflow: hidden;
   /* Prevent scrolling on the whole page */
 }
 
@@ -68,7 +70,7 @@ body {
   /* #000000c2 */
 
   /* position: absolute; */
-  /* overflow: hidden; */
+  overflow: hidden;
   width: 100vw;
 
 
@@ -80,7 +82,7 @@ body {
   height: 60px;
   width: 100%;
   position: absolute;
-  /* z-index: 2; */
+  z-index: 3;
   bottom: 0;
   color: gray;
   display: flex;
@@ -102,25 +104,53 @@ body {
 
 /* 1st phase */
 /* .deco1{
-    position: absolute;
-    top: -250px;
-    right: -160px;
-    height: 1040px;
-    width: 1040px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .deco2{
-    position: absolute;
-    bottom: -400px;
-    left: -250px;
-    height: 820px;
-    width: 820px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  } */
+  position: absolute;
+  top: -250px;
+  right: -160px;
+  height: 1040px;
+  width: 1040px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.deco2{
+  position: absolute;
+  bottom: -400px;
+  left: -250px;
+  height: 820px;
+  width: 820px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+
+.deco-circle {
+  height: 70vh;
+  width: 60vh;
+  position: absolute;
+  border-radius: 50%;
+  box-shadow: 0px 0px 60px 70px rgb(255 0 188);
+  background: rgb(255 0 188);
+  z-index: 0;
+}
+
+.one {
+  top: 0;
+  left: 0;
+  transform: translate(-40%, -40%);
+  box-shadow: 0px 0px 60px 70px rgb(68, 0, 255);
+  background: rgb(68, 0, 255);
+}
+
+.two {
+  right: 0;
+  bottom: 0;
+  transform: translate(40%, 40%);
+  box-shadow: 0px 0px 60px 70px rgb(255 30 248);
+  background: rgb(255 30 248);
+}
+
 
 @media screen and (max-width: 768px) {
   #root {
@@ -130,6 +160,11 @@ body {
 
   #root::before {
     background-position-x: -200px;
+  }
+
+  .deco-circle{
+    height: 60vh;
+    width: 50vh;
   }
 
 }
