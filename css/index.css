@@ -30,7 +30,7 @@
 }
 
 #root::before {
-  content: '';
+  /* content: ''; */
   height: 100%;
   width: 100%;
   background: #0000007d;
@@ -62,14 +62,17 @@ button{
 
 #root {
   /* height: 100vh; */
-  background-color: #00040e;
+  /* background-color: #00040e; */
   /* background-color: #212428; */
-  background-color: black;
+  /* background-color: black; */
   /* background-color: #e3ecff;
   
     background: url('../imgs/wallpaper3.jpeg'); */
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #f6e4ff;
+  background-color: #f2d5ff;
+  background-color: white;
 
   /* #000000c2 */
 
