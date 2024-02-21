@@ -45,6 +45,7 @@ div#main > div {
     /* background: #48003682; */
     background: #88005382;
     background: var(--theme-bg-light);
+    background: rgb(214 128 255 / 75%);
     /* background: rgb(110 0 163 / 63%); */
     height: 30px;
     /* box-shadow: 0px 0px 0px 0px #4a0102; */
