@@ -179,6 +179,10 @@ button{
     background-position-x: -200px;
   }
 
+  #footer{
+    background: linear-gradient(360deg, rgb(255, 255, 255), transparent);
+  }
+
   .deco-circle{
     height: 20vh;
     width: 20vh;
