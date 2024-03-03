@@ -374,12 +374,13 @@ a.profiles {
 @media screen and (max-width: 768px) {
     .left{
         margin: 20px;
+        margin: 0;
         width: 100% !important;
         align-items: normal;
         top: 14%;
     }
     .left > div{
-        height: 45% !important;
+        height: 60% !important;
         justify-content: center;
         align-items: center;
     }
