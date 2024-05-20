@@ -1,201 +1,26 @@
-:root {
-  --theme-main: #ff6bb5;
-  --theme-main-2: #4ecdd4;
-  --theme-main-2: hotpink;
-  --theme-bg-light: #ffd4f7;
-  --theme-bg-dark: #091919;
-  /* --theme-main: #FF69B4;
-  --theme-main-2: #FF6969;
-  --theme-bg-light: #FF69FF;
-  --theme-bg-dark: #091919; */
-  --theme-main-2: rgb(198, 77, 255);
-  --theme-main: rgb(182, 26, 255);
-  --theme-bg-light: rgb(214, 128, 255);
-  --theme-bg-dark: #091919;
+/* root, navbar, footer, main section */
 
-  /* rgb(255, 26, 140)
-  rgb(255, 77, 166)
-  rgb(255, 128, 191) */
+*{
+    margin: 0;
+    padding: 0;
 }
 
-#main {
-  /* background: gray; */
-  height: calc(100% - 120px);
-  display: flex;
-  /* justify-content: center; */
-  align-items: center;
-  position: relative;
-  font-family: 'Roboto', sans-serif;
-  z-index: 2;
+body{
+    background-color: #212121;
 }
 
-#root::before {
-  /* content: ''; */
-  height: 100%;
-  width: 100%;
-  background: #0000007d;
-  background: linear-gradient(0deg, black, transparent);
-  background: #000000a8;
-  position: absolute;
-  backdrop-filter: blur(2px);
-  z-index: 1;
+#root{
+    /* background-color: black; */
 }
 
-html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  /* Prevent scrolling on the whole page */
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-button{
-  cursor: pointer;
-}
-
-#root {
-  /* height: 100vh; */
-  /* background-color: #00040e; */
-  /* background-color: #212428; */
-  /* background-color: black; */
-  /* background-color: #e3ecff;
-  
-    background: url('../imgs/wallpaper3.jpeg'); */
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #f6e4ff;
-  background-color: #f2d5ff;
-  background-color: white;
-
-  /* #000000c2 */
-
-  /* position: absolute; */
-  overflow: hidden;
-  width: 100vw;
-
-
-  width: 100vw;
-  height: 100vh;
+#main{
+    /* background-color: blue; */
+    /* height: 100px; */
+    min-height: calc(100vh - 80px);
 }
 
 #footer{
-  height: 60px;
-  width: 100%;
-  position: absolute;
-  z-index: 3;
-  bottom: 0;
-  color: gray;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  font-size: 12px;
-  font-family: system-ui;
+    background-color: rgb(0, 255, 0);
+    height: 60px;
 }
 
-/* #footer div{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-} */
-
-#footer span{
-  color: red;
-}
-
-/* 1st phase */
-/* .deco1{
-  position: absolute;
-  top: -250px;
-  right: -160px;
-  height: 1040px;
-  width: 1040px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.deco2{
-  position: absolute;
-  bottom: -400px;
-  left: -250px;
-  height: 820px;
-  width: 820px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
-
-.deco-circle {
-  /* display: none; */
-  height: 50vh;
-  width: 50vh;
-  position: absolute;
-  /* border-radius: 50%; */
-  /* background: #b61aff59 !important; */
-  z-index: 0;
-}
-
-.one {
-  top: 0;
-  left: 0;
-  /* transform: translate(-40%, -40%); */
-  /* box-shadow: 0px 0px 60px 70px rgb(68, 0, 255);
-  background: rgb(68, 0, 255); */
-  border-radius: 0px 0px 90% 0px;
-  box-shadow: 0px 0px 60px 70px #b61affc2;
-  background: #b61affc2;
-}
-
-.two {
-  right: 0;
-  bottom: 0;
-  /* transform: translate(40%, 40%); */
-  /* box-shadow: 0px 0px 60px 70px rgb(255 30 248);
-  background: rgb(255 30 248); */
-  border-radius: 90% 0px 0px 0px;
-  box-shadow: 0px 0px 60px 70px #b61aff;
-  background: #b61aff;
-  box-shadow: 0px 0px 60px 70px #b61affc2;
-  background: #b61affc2;
-}
-
-
-@media screen and (max-width: 768px) {
-  #root {
-    /* overflow: hidden; */
-    overflow-x: hidden;
-  }
-
-  #root::before {
-    background-position-x: -200px;
-  }
-
-  #footer{
-    background: linear-gradient(360deg, rgb(255, 255, 255), transparent);
-  }
-
-  .deco-circle{
-    height: 20vh;
-    width: 20vh;
-  }
-  .one {
-    border-radius: 0px 0px 70% 0px;
-    box-shadow: 0px 0px 60px 70px #b61aff7e;
-    background: #b61aff7e;
-  }
-  .two {
-    border-radius: 70% 0px 0px 0px;
-    box-shadow: 0px 0px 60px 70px #b61aff9f;
-    background: #b61aff9f;
-  }
-
-}

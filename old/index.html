@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adarsh Kumar | Home</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+
+    <div id="root">
+        <!-- NAVBAR -->
+        <div id='navbar'>
+            <a href='./index.html' class="navbar-profile" style="text-decoration: none">
+                <!-- <img  class="navbar-profile-pic" src="./user-profile.png" alt="" /> -->
+                <div class="title">Adarsh Kumar</div>
+            </a>
+            <div class='navbar-links'>
+                <button class="burger" onclick=extend()>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </button>
+                <a href="./about.html" class="about">About</a>
+                <!-- <a href="./skills.html" class="skills">Skills</a> -->
+                <a href="./projects.html" class="projects">Projects</a>
+                <a href="Adarsh cv feb_1.pdf" class="download-cv">Resume</a>
+                <a href="./contact.html" class="contact">Contact Me</a>
+            </div>
+        </div>
+        <!-- NAVBAR -->
+        <!-- MAIN -->
+        <div id='main'>
+            <div class="left">
+                <div style="height: auto; gap: 20px;">
+                    <div class="name">
+                        <div class="hi">Hi, I'm </div>
+                        <div class="name-main">Adarsh Kumar</div>
+                    </div>
+                    <div class="small-desc">
+                        As a developer, I weave creativity and logic into every line of code. Proficient in JavaScript,
+                        HTML, CSS, Python, and Java, my passion lies in forging new paths in AI and networking.
+                    </div>
+                    <div class="links">
+                        <!-- <a href="https://github.com/akn714" target='_blank' class="follow-me-on-github">
+                            <div>
+                                Follow me on Github
+                            </div>
+                            <img src="imgs/profile-icons/github-mark.png" alt=""
+                                style="height:32px; filter:contrast(0%)" />
+                        </a> -->
+                        <!-- gmail link here -->
+                        <a href="mailto:adarshkumar20012704@gmail.com" target='_blank' class="get-in-touch" style="background: #b61aff;
+                        height: 35px;
+                        width: fit-content;
+                        border-radius: 10px;
+                        border: none; gap: 10px;">
+                            <div>
+                                Get in Touch
+                            </div>
+                            <img src="imgs/up-right-arrow2.png">
+                        </a>
+                    </div>
+                    <style>
+                        .skills {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 19px;
+                            width: 424px;
+                            overflow: hidden;
+                            /* margin: 13px 0px; */
+                            position: relative;
+                        }
+
+                        .skill {
+                            background: #e5e5e5;
+                            background: #e5e5ffd6;
+                            /* height: 20px; */
+                            width: fit-content;
+                            /* padding: 10px; */
+                            padding: 3px 10px;
+                            border-radius: 15px;
+                            color: #181818;
+                            /* border: 1px solid #b61aff; */
+                            color: #b61affc7;
+                        }
+                        .start{
+                            position: absolute;
+                            left: 0;
+                            background: linear-gradient(90deg, white, transparent);
+                            width: 20px;
+                            height: 100%;
+                        }
+                        .end{
+                            position: absolute;
+                            right: 0;
+                            background: linear-gradient(270deg, white, transparent);
+                            width: 20px;
+                            height: 100%;
+                        }
+                    </style>
+                    <div class="skills">
+                        <div class="start"></div>
+                        <div class="skill">HTML</div>
+                        <div class="skill">CSS</div>
+                        <div class="skill">JavaScript</div>
+                        <div class="skill">Python</div>
+                        <div class="skill">Java</div>
+                        <div class="skill">C++</div>
+                        <div class="end"></div>
+                    </div>
+                    <!-- <div class="profile-links">
+                        <div>
+                            <a href='https://github.com/akn714' class="profiles github" target='_blank'>
+                                <div class="website-logo">
+                                    <img src="imgs/profile-icons/github-mark.png" alt="github" style="height:33px" />
+                                </div>
+                            </a>
+                            <a href='https://www.linkedin.com/in/adarsh-kumar-123a34231' class="profiles linkedin"
+                                target='_blank'>
+                                <div class="website-logo">
+                                    <img src="imgs/profile-icons/linkedin.png" alt="linkedin" style="height:28px" />
+                                </div>
+                            <a href='https://twitter.com/akn714' class="profiles tweeter" target='_blank'>
+                                <div class="website-logo">
+                                    <img src="imgs/profile-icons/twitter-logo.png" alt="twitter" style="height:38px" />
+                                </div>
+                            </a>
+                            <a href='mailto:adarshkumar20012704@gmail.com' class="profiles tweeter" target='_blank'>
+                                <div class="gmail-logo">
+                                    <img src="imgs/profile-icons/Gmail-Logo.png" alt="twitter" style="height:24px" />
+                                </div>
+                            </a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="right">
+                <img src="imgs/landing-page-image6.webp" alt="" height="400px">
+            </div>
+            <!-- <div class="right">
+          <div>
+            <div class='profile-image'>
+                <div class="img">
+                  <img  class="navbar-profile-pic" src="./user-profile.png" alt="" />
+                </div>
+            </div>
+            <div class="profile-links">
+              <div>
+                <a href='https://github.com/akn714' class="profiles github" target='_blank'>
+                  <div class="website-logo">
+                    <img src="./github-mark.png" alt="github" style={{height:'33px'}} />
+                  </div>
+                  <p>/akn714</p>
+                </a>
+                <a href='https://www.linkedin.com/in/adarsh-kumar-123a34231' class="profiles linkedin" target='_blank'>
+                  <div class="website-logo">
+                    <img src="./LI-In-Bug.png" alt="linkedin" style={{height:28px}} />
+                  </div>
+                  <p>in/adarsh-kumar-123a34231</p>
+                </a>
+                <a href='https://twitter.com/AdarshK43393714' class="profiles tweeter" target='_blank'>
+                  <div class="website-logo">
+                    <img src="./twitter-logo.png" alt="twitter" style={{height:38px}} />
+                  </div>  
+                  <p>/AdarshK43393714</p>
+                </a>
+                <a href='mailto:adarshkumar20012704@gmail.com' class="profiles tweeter" target='_blank'>
+                  <div class="gmail-logo">
+                    <img src="./Gmail-Logo.png" alt="twitter" style={{height:'24px'}} />
+                  </div>
+                  <p>adarshkumar20012704@gmail.com</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>  -->
+        </div>
+        <!-- MAIN -->
+        <!-- MAIN -->
+        <div id="main">
+            <div class="project-containers">
+                <!-- <div class="project-container">
+                    <div class="project-title">
+                        <h2>V-Doc (Virtual Doctor)</h2>
+                    </div>
+                    <div class="project-desc">
+                        An AI assistant leveraging medication data to suggest appropriate treatments for various
+                        diseases and injuries, balancing efficacy with safety in its recommendations.
+                    </div>
+                    <div class="view-on-github"><a href='https://github.com/akn714/V-Doc' target='_blank'>view
+                            on github</a></div>
+                </div> -->
+            </div>
+        </div>
+        <!-- MAIN -->
+         <!-- MAIN -->
+         <div id="main">
+            <div class="contact-containers">
+                <div class="contact-container">
+                    <div class="contact-title">
+                        <h2>Contact Me</h2>
+                    </div>
+                    <form class="fields" action="https://formsubmit.co/badhatakn714@gmail.com" method="POST">
+                        <input type="text" name="name" class="name" placeholder="Enter your name">
+                        <input type="text" class="email" placeholder="Enter your email">
+                        <textarea name="msg" id="msg" class="message" placeholder="Message..."></textarea>
+                        <input type="submit" value="send" class="send-btn">
+                    </form>
+                </div>
+            </div>
+            <!-- <div class="section sec1"></div>
+            <div class="section mainSec">
+            </div>
+            <div class="section sec3"></div> -->
+        </div>
+        <!-- MAIN -->
+        <!-- FOOTER -->
+        <div id="footer">
+            <div class="footer-top">
+                &#169; 2024. All Rights Reserved.
+            </div>
+            <div class="footer-bottom">
+                Made with <span>❤️</span>.
+            </div>
+        </div>
+        <!-- FOOTER -->
+        <!-- BACKGROUND DECORATION CIRCLES -->
+        <!-- <div class="deco-circle one"></div>
+        <div class="deco-circle two"></div> -->
+        <!-- BACKGROUND DECORATION CIRCLES -->
+    </div>
+
+    <script src="js/projects.js"></script>
+    <script src="js/navbar.js"></script>
+
+    <style>
+        @font-face {
+            font-family: "Lovely Home";
+            src: local('Lovely Home'), url("./LovelyHome-9aBZ.ttf") format('truetype');
+        }
+    </style>
+</body>
+
+</html>
