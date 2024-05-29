@@ -11,24 +11,35 @@
 </head>
 <body>
     <div id="root">
-        <section id="navbar">
-            <a href='./index.html' class="navbar-profile" style="text-decoration: none">
-                <!-- <img  class="navbar-profile-pic" src="./user-profile.png" alt="" /> -->
-                <div class="title">Adarsh Kumar</div>
-            </a>
-            <div class='navbar-links'>
-                <button class="burger" onclick=extend()>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                </button>
+        <div class="sticky-navbar">
+            <section id="navbar">
+                <div class="navbar-profile">
+                    <!-- <img  class="navbar-profile-pic" src="./user-profile.png" alt="" /> -->
+                    <a href='./index.html' style="text-decoration: none" class="title">Adarsh Kumar</a>
+                    <button class="burger" onclick=drop_down_the_menu()>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </button>
+                </div>
+                <div class='navbar-links'>
+                    <a href="./about.html" class="about">About</a>
+                    <!-- <a href="./skills.html" class="skills">Skills</a> -->
+                    <a href="./projects.html" class="projects">Projects</a>
+                    <a href="Adarsh cv feb_1.pdf" class="download-cv">Resume</a>
+                    <a href="./contact.html" class="contact" style="min-width: 100px;">Contact Me</a>
+                </div>
+            </section>
+        </div>
+        <div class="drop-down-navbar-div">
+            <div class='drop-down-navbar'>
                 <a href="./about.html" class="about">About</a>
                 <!-- <a href="./skills.html" class="skills">Skills</a> -->
                 <a href="./projects.html" class="projects">Projects</a>
                 <a href="Adarsh cv feb_1.pdf" class="download-cv">Resume</a>
                 <a href="./contact.html" class="contact" style="min-width: 100px;">Contact Me</a>
             </div>
-        </section>
+        </div>
         <section id="main">
             <div id="hero-sec" class="section">
                 <div class="sec-div">
@@ -72,5 +83,6 @@
 
         </section>
     </div>
+    <script src="navbar.js"></script>
 </body>
 </html>
