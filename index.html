@@ -1,211 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Adarsh Kumar | Home</title>
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/home.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adarsh Kumar - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-
-    <div id="root">
-        <!-- NAVBAR -->
-        <div id='navbar'>
-            <a href='./index.html' class="navbar-profile" style="text-decoration: none">
-                <!-- <img  class="navbar-profile-pic" src="./user-profile.png" alt="" /> -->
-                <div class="title">Adarsh Kumar</div>
-            </a>
-            <div class='navbar-links'>
-                <button class="burger" onclick=extend()>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                </button>
-                <a href="./about.html" class="about">About</a>
-                <!-- <a href="./skills.html" class="skills">Skills</a> -->
-                <a href="./projects.html" class="projects">Projects</a>
-                <a href="Adarsh cv feb_1.pdf" class="download-cv">Resume</a>
-                <a href="./contact.html" class="contact">Contact Me</a>
-            </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://github.com/akn714/Adarsh_Kumar_Resume/blob/main/Adarsh%20Kumar%20Resume%20%5B30%20%20aug%202024%5D.pdf">Resume</a></li>
+            </ul>
+        </nav>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
         </div>
-        <!-- NAVBAR -->
-        <!-- MAIN -->
-        <div id='main'>
-            <div class="left">
-                <div style="height: auto; gap: 20px;">
-                    <div class="name">
-                        <div class="hi">Hi, I'm </div>
-                        <div class="name-main">Adarsh Kumar</div>
-                    </div>
-                    <div class="small-desc">
-                        As a developer, I weave creativity and logic into every line of code. Proficient in JavaScript,
-                        HTML, CSS, Python, and Java, my passion lies in forging new paths in AI and networking.
-                    </div>
-                    <div class="links">
-                        <!-- <a href="https://github.com/akn714" target='_blank' class="follow-me-on-github">
-                            <div>
-                                Follow me on Github
-                            </div>
-                            <img src="imgs/profile-icons/github-mark.png" alt=""
-                                style="height:32px; filter:contrast(0%)" />
-                        </a> -->
-                        <!-- gmail link here -->
-                        <a href="mailto:adarshkumar20012704@gmail.com" target='_blank' class="get-in-touch" style="background: #b61aff;
-                        height: 35px;
-                        width: fit-content;
-                        border-radius: 10px;
-                        border: none; gap: 10px;">
-                            <div>
-                                Get in Touch
-                            </div>
-                            <img src="imgs/up-right-arrow2.png">
-                        </a>
-                    </div>
-                    <style>
-                        .skills {
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            gap: 19px;
-                            width: 424px;
-                            overflow: hidden;
-                            /* margin: 13px 0px; */
-                            position: relative;
-                        }
+    </header>
 
-                        .skill {
-                            background: #e5e5e5;
-                            background: #e5e5ffd6;
-                            /* height: 20px; */
-                            width: fit-content;
-                            /* padding: 10px; */
-                            padding: 3px 10px;
-                            border-radius: 15px;
-                            color: #181818;
-                            /* border: 1px solid #b61aff; */
-                            color: #b61affc7;
-                        }
-                        .start{
-                            position: absolute;
-                            left: 0;
-                            background: linear-gradient(90deg, white, transparent);
-                            width: 20px;
-                            height: 100%;
-                        }
-                        .end{
-                            position: absolute;
-                            right: 0;
-                            background: linear-gradient(270deg, white, transparent);
-                            width: 20px;
-                            height: 100%;
-                        }
-                    </style>
-                    <div class="skills">
-                        <div class="start"></div>
-                        <div class="skill">HTML</div>
-                        <div class="skill">CSS</div>
-                        <div class="skill">JavaScript</div>
-                        <div class="skill">Python</div>
-                        <div class="skill">Java</div>
-                        <div class="skill">C++</div>
-                        <div class="end"></div>
-                    </div>
-                    <!-- <div class="profile-links">
-                        <div>
-                            <a href='https://github.com/akn714' class="profiles github" target='_blank'>
-                                <div class="website-logo">
-                                    <img src="imgs/profile-icons/github-mark.png" alt="github" style="height:33px" />
-                                </div>
-                            </a>
-                            <a href='https://www.linkedin.com/in/adarsh-kumar-123a34231' class="profiles linkedin"
-                                target='_blank'>
-                                <div class="website-logo">
-                                    <img src="imgs/profile-icons/linkedin.png" alt="linkedin" style="height:28px" />
-                                </div>
-                            <a href='https://twitter.com/akn714' class="profiles tweeter" target='_blank'>
-                                <div class="website-logo">
-                                    <img src="imgs/profile-icons/twitter-logo.png" alt="twitter" style="height:38px" />
-                                </div>
-                            </a>
-                            <a href='mailto:adarshkumar20012704@gmail.com' class="profiles tweeter" target='_blank'>
-                                <div class="gmail-logo">
-                                    <img src="imgs/profile-icons/Gmail-Logo.png" alt="twitter" style="height:24px" />
-                                </div>
-                            </a>
-                        </div>
-                    </div> -->
+    <main>
+        <section id="home">
+            <h1>Adarsh Kumar</h1>
+            <p>Web Developer | AI Enthusiast | Problem Solver</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                <p>I'm Adarsh Kumar, a B.Tech student majoring in Computer Science and Engineering. Proficient in JavaScript, Java, and Python, my passion lies in both frontend and backend projects, show- casing a diverse skill set in full-stack development.</p>
+                <p>In my journey, I've explored a range of technologies, fostering a keen interest in computer sci- ence intricacies. I'm dedicated to continuous learning and naturally inclined to explore hacking, alongside a fondness for the Linux operating system.</p>
+                <p>My future aspirations involve building a career as a software developer, focusing on networking and web development. I aim to contribute meaningfully to projects, stay updated on emerging technologies, and actively engage in the evolving tech industry.</p>
+
+            </p>
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>C++</li>
+                <li>Git</li>
+                <li>Linux</li>
+            </ul>
+        </section>
+        <section id="project">
+            <h2>Projects</h2>
+            <section id="projects">
+                <div class="project">
+                    <h3>V-Doc (Virtual Doctor)</h3>
+                    <p>An AI assistant leveraging medication data to suggest appropriate treatments for various diseases and injuries, balancing efficacy with safety in its recommendations.</p>
+                    <a href="https://github.com/akn714/V-Doc" target="_blank" class="github-btn">View on GitHub</a>
                 </div>
-            </div>
-            <div class="right">
-                <img src="imgs/landing-page-image6.webp" alt="" height="400px">
-            </div>
-            <!-- <div class="right">
-          <div>
-            <div class='profile-image'>
-                <div class="img">
-                  <img  class="navbar-profile-pic" src="./user-profile.png" alt="" />
+                <div class="project">
+                    <h3>Student Dashboard</h3>
+                    <p>A web application featuring an interactive student dashboard, designed for engaging and streamlined access to educational resources and tools.</p>
+                    <a href="https://github.com/akn714/Student-Dashboard" target="_blank" class="github-btn">View on GitHub</a>
                 </div>
-            </div>
-            <div class="profile-links">
-              <div>
-                <a href='https://github.com/akn714' class="profiles github" target='_blank'>
-                  <div class="website-logo">
-                    <img src="./github-mark.png" alt="github" style={{height:'33px'}} />
-                  </div>
-                  <p>/akn714</p>
-                </a>
-                <a href='https://www.linkedin.com/in/adarsh-kumar-123a34231' class="profiles linkedin" target='_blank'>
-                  <div class="website-logo">
-                    <img src="./LI-In-Bug.png" alt="linkedin" style={{height:28px}} />
-                  </div>
-                  <p>in/adarsh-kumar-123a34231</p>
-                </a>
-                <a href='https://twitter.com/AdarshK43393714' class="profiles tweeter" target='_blank'>
-                  <div class="website-logo">
-                    <img src="./twitter-logo.png" alt="twitter" style={{height:38px}} />
-                  </div>  
-                  <p>/AdarshK43393714</p>
-                </a>
-                <a href='mailto:adarshkumar20012704@gmail.com' class="profiles tweeter" target='_blank'>
-                  <div class="gmail-logo">
-                    <img src="./Gmail-Logo.png" alt="twitter" style={{height:'24px'}} />
-                  </div>
-                  <p>adarshkumar20012704@gmail.com</p>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>  -->
-        </div>
-        <!-- MAIN -->
-        <!-- FOOTER -->
-        <div id="footer">
-            <div class="footer-top">
-                &#169; 2024. All Rights Reserved.
-            </div>
-            <div class="footer-bottom">
-                Made with <span>❤️</span>.
-            </div>
-        </div>
-        <!-- FOOTER -->
-        <!-- BACKGROUND DECORATION CIRCLES -->
-        <!-- <div class="deco-circle one"></div>
-        <div class="deco-circle two"></div> -->
-        <!-- BACKGROUND DECORATION CIRCLES -->
-    </div>
+                <div class="project">
+                    <h3>Discord AI Bot</h3>
+                    <p>A custom-trained Discord AI bot, seamlessly integrating ChatGPT with RAG, tailored to your data for enriched, contextually relevant interactions and responses.</p>
+                    <a href="https://github.com/akn714/Discord-AI-Bot" target="_blank" class="github-btn">View on GitHub</a>
+                </div>
+                <div class="project">
+                    <h3>COLX (College Olx)</h3>
+                    <p>College OLX, A versatile college platform akin to OLX, enabling trade of second-hand items, lost and found posts, and maintenance requests.</p>
+                    <a href="https://github.com/akn714/colx" target="_blank" class="github-btn">View on GitHub</a>
+                </div>
+                <div class="project">
+                    <h3>Chat Room</h3>
+                    <p>A dynamic real-time chat app for instant messaging and seamless communication.</p>
+                    <a href="https://github.com/akn714/chat-room" target="_blank" class="github-btn">View on GitHub</a>
+                </div>
+                <div class="project">
+                    <h3>YouTube Ad Skipper</h3>
+                    <p>A Chrome extension designed to effectively bypass YouTube ads, enhancing your video-watching experience without interruptions.</p>
+                    <a href="https://github.com/akn714/YT-Ad-Skipper" target="_blank" class="github-btn">View on GitHub</a>
+                </div>
+                <div class="project">
+                    <h3>Trash N Treasure</h3>
+                    <p>A web portal bridging communities and recycling industries, facilitating efficient waste management and promoting environmental sustainability.</p>
+                    <a href="https://github.com/akn714/Trash-n-Treasure" target="_blank" class="github-btn">View on GitHub</a>
+                </div>
+                <div class="project">
+                    <h3>TelegramGPT</h3>
+                    <p>An AI assistant for Telegram, utilizing the Retrieval-Augmented Generation (RAG) model, trained on custom data for enhanced, context-aware responses.</p>
+                    <a href="https://github.com/akn714/TelegramGPT" target="_blank" class="github-btn">View on GitHub</a>
+                </div>
+                <div class="project">
+                    <h3>AstroBeats</h3>
+                    <p>Dive into the cosmos of sound with "AstroBeats", a sleek music website clone offering celestial playlists and personalized music recommendations.</p>
+                    <a href="https://github.com/akn714/astrobeats" target="_blank" class="github-btn">View on GitHub</a>
+                </div>
+            </section>
+        </section>
 
-    <script src="js/navbar.js"></script>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out to me for collaborations or opportunities!</p>
+            <ul>
+                <li>Email: <a href="mailto:adarshkumar20012704@gmail">adarshkumar20012704@gmail.com</a></li>
+                <li>GitHub: <a href="https://github.com/akn714" target="_blank">github.com/akn714</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/akn714" target="_blank">linkedin.com/in/akn714</a></li>
+                <li>X: <a href="https://x.com/akn714" target="_blank">x.com/akn714</a></li>
+                <li>LeetCode: <a href="https://leetcode.com/pio00" target="_blank">leetcode.com/pio00</a></li>
+                <li>GeeksforGeeks: <a href="https://www.geeksforgeeks.org/user/udhavakn/" target="_blank">geeksforgeeks.org/user/udhavakn</a></li>
+                <li>HackerRank: <a href="https://www.hackerrank.com/profile/akumark2004" target="_blank">hackerrank.com/profile/akumark2004</a></li>
+                <li>HackerRank: <a href="https://codeforces.com/profile/adarsh714" target="_blank">codeforces.com/profile/adarsh714</a></li>
+                <li>TryHackMe: <a href="https://tryhackme.com/p/spyd3" target="_blank">tryhackme.com/p/spyd3</a></li>
+            </ul>
+        </section>
+    </main>
 
-    <style>
-        @font-face {
-            font-family: "Lovely Home";
-            src: local('Lovely Home'), url("./LovelyHome-9aBZ.ttf") format('truetype');
-        }
-    </style>
+    <footer>
+        <p>&copy; 2024 Adarsh Kumar. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-
 </html>
