@@ -256,7 +256,8 @@ a:hover {
     }
 
     main {
-        padding-top: 4rem;
+    	padding: 1.5rem;
+        padding-top: 8rem;
     }
 
     h1 {
@@ -304,6 +305,6 @@ a:hover {
     }
 
     main {
-        padding-left: 0;
+        // padding-left: 0;
     }
 }
