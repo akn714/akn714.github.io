@@ -62,3 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+let footer = document.getElementsByTagName('footer')[0];
+let d = new Date();
+footer.children[0].innerHTML = `© ${d.getFullYear()} Adarsh Kumar. All Rights Reserved.`;
