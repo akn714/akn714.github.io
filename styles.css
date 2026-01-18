@@ -14,7 +14,8 @@
     --text-color: #b3b3b3;
     --link-text-color: #f093fb;
     --footer-text: #525252;
-    --bg-color: #0a0a0a;
+    /* --bg-color: #0a0a0a; */
+    --bg-color: #1d1e20;
     --border: #444444;
     --border-pink: #f093fb70;
 }
@@ -146,8 +147,13 @@ h1, h2, h3 {
 
 #home > h1 {
     font-family: "Lovely Home" !important;
-    font-size: 30px;
+    font-size: 2.5rem;
     color: var(--border-pink);
+}
+
+:root[data-theme="dark"] #home > h1 {
+    color: var(--link-text-color);
+
 }
 
 p {
@@ -156,6 +162,9 @@ p {
 }
 
 /* ==== SKILLS ==== */
+#about {
+    padding-top: 0;
+}
 #about ul {
     display: flex;
     flex-wrap: wrap;
