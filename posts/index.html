@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs - Adarsh Kumar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="./index.html" class="active">Blogs</a></li>
+                <li><a href="https://akn714.medium.com" target="_blank">Medium</a></li>
+                <button id="theme-toggle" class="theme-toggle-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon h-5 w-5"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path></svg>
+                </button>
+            </ul>
+        </nav>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </header>
+
+    <main>
+        <section id="blogs">
+            <h1>Blogs</h1>
+            <p class="subtitle">Thoughts on development, AI, Linux, and experiments...</p>
+
+            <div class="blog-list" id="blog-list">
+                <!-- Blogs will be loaded here by JavaScript -->
+                <div class="loading">Loading blogs...</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy;2026 | Kernel Loaded | Debug mode: OFF
+    </footer>
+
+    <script src="blogs.js"></script>
+    <script src="../scripts.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

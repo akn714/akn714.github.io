@@ -1,0 +1,36 @@
+{
+  "blogs": [
+    {
+      "id": "ai-doctor",
+      "title": "How I Built an AI Doctor Using RAG",
+      "date": "Jan 10, 2025",
+      "readTime": "8 min read",
+      "excerpt": "A deep dive into building V-Doc using LangChain, Pinecone, and real-world medical datasets while maintaining safety.",
+      "file": "ai-doctor.md"
+    },
+    {
+      "id": "linux-guide",
+      "title": "Why Every Developer Should Use Linux",
+      "date": "Dec 22, 2024",
+      "readTime": "6 min read",
+      "excerpt": "From performance to customization — why Linux is still the best OS for developers and hackers.",
+      "file": "linux-guide.md"
+    },
+    {
+      "id": "discord-bot",
+      "title": "Building a Discord AI Bot with Custom Data",
+      "date": "Nov 30, 2024",
+      "readTime": "7 min read",
+      "excerpt": "Step-by-step process of integrating ChatGPT with RAG inside a Discord bot.",
+      "file": "discord-bot.md"
+    },
+    {
+      "id": "fullstack-journey",
+      "title": "My Journey into Full Stack Development",
+      "date": "Oct 12, 2024",
+      "readTime": "10 min read",
+      "excerpt": "Lessons learned from frontend failures to backend scaling challenges.",
+      "file": "fullstack-journey.md"
+    }
+  ]
+}

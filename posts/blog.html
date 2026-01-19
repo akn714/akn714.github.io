@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Adarsh Kumar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Syntax highlighting for code blocks -->
+     <!-- CODE BLOCK THEMES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/night-owl.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/nord.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/vs2015.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/base16/stackoverflow-dark.min.css"> -->
+
+
+
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="./index.html">Blogs</a></li>
+                <li><a href="https://akn714.medium.com" target="_blank">Medium</a></li>
+                <button id="theme-toggle" class="theme-toggle-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon h-5 w-5"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path></svg>
+                </button>
+            </ul>
+        </nav>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </header>
+
+    <main>
+        <article id="blog-content" class="blog-article">
+            <div class="loading">Loading blog...</div>
+        </article>
+    </main>
+
+    <footer>
+        &copy;2026 | Kernel Loaded | Debug mode: OFF
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="blogs.js"></script>
+    <script src="../scripts.js"></script>
+    <script src="scripts.js"></script>
+    <script>
+        // const blog = fetch('https://raw.githubusercontent.com/akn714/SIH2025/refs/heads/main/audio-guide-app.md')
+        //     .then(response => response.text())
+        //     .then(data => {
+        //         document.getElementById('blog-content').innerHTML = marked.parse(data);
+        //         document.querySelectorAll('pre code').forEach((block) => {
+        //             hljs.highlightBlock(block);
+        //         });
+        //     })
+        //     .catch(error => {
+        //         document.getElementById('blog-content').innerHTML = '<p>Error loading blog.</p>';
+        //         console.error('Error fetching blog:', error);
+        //     });
+
+        // change theme to light
+        // localStorage.setItem("theme", "light");
+        // document.documentElement.setAttribute("data-theme", "light");
+        // const current = document.documentElement.getAttribute("data-theme");
+        // localStorage.setItem("theme", "light");
+        // toggle.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon h-5 w-5"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path></svg>`;
+    </script>
+</body>
+</html>
