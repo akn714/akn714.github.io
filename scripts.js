@@ -85,8 +85,10 @@ toggle.addEventListener("click", () => {
 });
 
 // change theme to light
-localStorage.setItem("theme", "dark");
-document.documentElement.setAttribute("data-theme", "dark");
+if (!localStorage.getItem("theme")) {
+    localStorage.setItem("theme", "dark");
+    document.documentElement.setAttribute("data-theme", "dark");
+}
 const current = document.documentElement.getAttribute("data-theme");
 if (localStorage.getItem("theme") === "dark") {
     document.documentElement.setAttribute("data-theme", "dark");

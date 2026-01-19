@@ -209,8 +209,8 @@ main {
 }
 
 .blog-body code {
-    background: rgba(102, 126, 234, 0.1);
-    color: #667eea;
+    background: var(--footer-text);
+    color: white;
     padding: 0.2rem 0.5rem;
     border-radius: 4px;
     font-family: 'Courier New', monospace;
@@ -221,14 +221,18 @@ main {
     background: rgba(240, 147, 251, 0.1);
     color: #f093fb;
 }
+:root[data-theme="dark"] .blog-body pre code {
+    background: rgb(17 17 17);
+}
 
 .blog-body pre {
-    background: rgba(0, 0, 0, 0.5);
-    padding: 1rem;
+    background: rgb(17 17 17);
+    /* padding: 1rem; */
     border-radius: 8px;
     overflow-x: auto;
     margin: 1.5rem 0;
-    border-left: 4px solid #667eea;
+    border-left: 4px solid #f093fb;
+    border-left: 4px solid #e400ff;
 }
 
 :root[data-theme="dark"] .blog-body pre {
