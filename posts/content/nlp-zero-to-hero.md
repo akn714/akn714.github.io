@@ -400,6 +400,8 @@ LSTMs solve RNN limitations using gates:
 	- Not able to understand if something is related to something
 	- Like 'My name is XYZ and I like chocolate', Here 'I' refers to 'XYZ', but RNNs are not able to process this information.
 
+*for better understanding read colah's blog on LSTM [here](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+
 ---
 
 ### Transformers
