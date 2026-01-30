@@ -1,11 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const burger = document.querySelector('.burger');
+    const burger = document.querySelector('.burger input');
     const nav = document.querySelector('nav');
     const navLinks = document.querySelectorAll('nav ul li a');
 
-    burger.addEventListener('click', () => {
+    burger.addEventListener('change', () => {
         nav.classList.toggle('active');
-        burger.classList.toggle('active');
 
         // Animate links
         navLinks.forEach((link, index) => {
@@ -22,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
         link.addEventListener('click', () => {
             if (window.innerWidth <= 768) {
                 nav.classList.remove('active');
-                burger.classList.remove('active');
+                burger.checked = false;
                 navLinks.forEach(link => {
                     link.style.animation = '';
                 });
