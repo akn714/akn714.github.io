@@ -2,6 +2,14 @@
 const BLOGS_DATA = {
   "blogs": [
     {
+      "id": "gate-overview",
+      "title": "GATE Overview",
+      "date": "Feb 1, 2026",
+      "readTime": "5 min read",
+      "excerpt": "An overview of the Graduate Aptitude Test in Engineering (GATE) exam, its structure, and preparation tips.",
+      "file": "gate-overview.md"
+    },
+    {
       "id": "nlp-zero-to-hero",
       "title": "NLP: Zero to Hero",
       "date": "Jan 29, 2026",
@@ -78,6 +86,60 @@ const BLOGS_DATA = {
 
 // Embedded markdown content (to avoid fetch issues with file:// protocol)
 const MARKDOWN_CONTENT = {
+  "gate-overview.md": `
+  # GATE CSE Exam Details
+
+## ✅ Total Marks  
+- **100 marks**
+
+## ✅ Total Questions  
+- **65 questions**  
+
+## ✅ Types of Questions  
+1. **MCQ (Multiple Choice Questions)** – 4 options, one correct answer.  
+2. **MSQ (Multiple Select Questions)** – 4 options, one or more can be correct.  
+3. **NAT (Numerical Answer Type)** – Requires a numerical value as the answer.  
+
+## ✅ Marks Distribution  
+- **10 questions** from **General Aptitude** → 15 marks  
+   - 5 questions × 1 mark  
+   - 5 questions × 2 marks  
+- **55 questions** from **Core Subjects + Engineering Mathematics** → 85 marks  
+   - 25 questions × 1 mark  
+   - 30 questions × 2 marks  
+
+## ✅ Number of MCQ, MSQ, and NAT Questions  
+- **MCQ** → ~35  
+- **MSQ** → ~10  
+- **NAT** → ~20  
+
+## ✅ Negative Marking  
+- **MCQs**  
+   - For **1-mark MCQ** → −0.33 for wrong answer  
+   - For **2-mark MCQ** → −0.66 for wrong answer  
+- **MSQs and NATs** → **No negative marking**  
+
+## ✅ Number of Subjects  
+- **10 core subjects** + **General Aptitude** + **Engineering Mathematics**  
+
+## ✅ Weightage of Each Subject  
+| Subject | Approx. Weightage (%) | Marks (out of 100) |  
+|---------|------------------------|--------------------|  
+| General Aptitude | 15% | 15 marks |  
+| Engineering Mathematics | 13%–15% | 13–15 marks |  
+| Programming & Data Structures | 10%–12% | 10–12 marks |  
+| Algorithms | 8%–10% | 8–10 marks |  
+| Theory of Computation | 6%–8% | 6–8 marks |  
+| Computer Networks | 8%–10% | 8–10 marks |  
+| Database Management Systems | 6%–8% | 6–8 marks |  
+| Operating Systems | 8%–10% | 8–10 marks |  
+| Computer Organization & Architecture | 6%–8% | 6–8 marks |  
+| Compiler Design | 4%–6% | 4–6 marks |  
+| Digital Logic | 4%–6% | 4–6 marks |  
+
+## ✅ Time Allotted  
+- **3 hours** (180 minutes)
+  `,
   "nlp-zero-to-hero.md": `
   # NLP (Zero to Hero)
 
