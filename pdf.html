@@ -19,11 +19,46 @@
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="./posts">Blogs</a></li>
                 <li><a href="https://akn714.medium.com" target="_blank">Medium</a></li>
-                <li><a href="./Adarsh Kumar Resume (AI ML Engineer).pdf" target="_blank">Resume</a></li>
+                <li><a href="#" id="resume-link">Resume</a></li>
                 <button id="theme-toggle" class="theme-toggle-btn">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon h-5 w-5"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path></svg>
                 </button>
             </ul>
+            <style>
+                .resume-modal {
+                    display: none;
+                    position: fixed;
+                    z-index: 9999;
+                    inset: 0;
+                    background: rgba(0, 0, 0, 0.85);
+                }
+
+                .resume-content {
+                    position: relative;
+                    width: 90%;
+                    height: 90%;
+                    margin: 2% auto;
+                    background: white;
+                    border-radius: 10px;
+                    overflow: hidden;
+                }
+
+                .close-resume {
+                    position: absolute;
+                    top: 10px;
+                    right: 20px;
+                    font-size: 35px;
+                    cursor: pointer;
+                    z-index: 10000;
+                    color: #000;
+                    font-weight: bold;
+                }
+
+                .resume-content iframe {
+                    width: 100%;
+                    height: 100%;
+                }
+            </style>
         </nav>
         <label class="burger">
             <input type="checkbox">
@@ -44,9 +79,9 @@
         <section id="about">
             <!-- <h2>About Me</h2> -->
             <!-- <p> -->
-                <p>I'm Adarsh Kumar, a Computer Science and Engineering graduate passionate about building intelligent software solutions. With experience in Python, Java, and JavaScript, I specialize in developing full-stack web applications, AI-powered systems, and scalable backend services that solve real-world problems.</p>
-                <p>My interests span Artificial Intelligence, Machine Learning, Computer Vision, Cybersecurity, Cloud Technologies, and Software Engineering. Through hands-on projects involving AI Agents, Retrieval-Augmented Generation (RAG), Machine Learning, NLP, Computer Vision, and modern web technologies, I continuously explore new ways to combine software engineering with intelligent automation.</p>
-                <p>I enjoy working across the entire development lifecycle from designing user-friendly interfaces and robust backend architectures to training machine learning models and deploying applications to the cloud. Currently, I am seeking opportunities as a Software Engineer, AI/ML Engineer, Full-Stack Developer, or Backend Developer, where I can contribute to impactful products while continuing to grow as an engineer.</p>
+                <p>I'm Adarsh Kumar, a B.Tech student majoring in Computer Science and Engineering. Proficient in JavaScript, Java, and Python, my passion lies in both frontend and backend projects, show- casing a diverse skill set in full-stack development.</p>
+                <p>In my journey, I've explored a range of technologies, fostering a keen interest in computer science intricacies. I'm dedicated to continuous learning and naturally inclined to explore hacking, alongside a fondness for the Linux operating system.</p>
+                <p>My future aspirations involve building a career as a software developer, focusing on networking and web development. I aim to contribute meaningfully to projects, stay updated on emerging technologies, and actively engage in the evolving tech industry.</p>
             <!-- </p> -->
         </section>
 
@@ -99,154 +134,66 @@
             <h2>Projects</h2>
             <div id="projects">
                 <div class="project">
+                    <h3>Rocket07 Online Delivery Service System<span class="project-date">2026</span></h3>
+                    <p>A full-stack delivery management platform featuring FastAPI backend, Supabase PostgreSQL database, and Telegram Bot integration for real-time order notifications, tracking, and workflow automation.</p>
+                    <a href="https://rocket07.in/" target="_blank" class="github-btn">View Live →</a>
+                    <a href="https://github.com/akn714/online_delivery_system" target="_blank" class="github-btn">View on GitHub →</a>
+                </div>
+                <div class="project">
                     <h3>ML Based Web Application Firewall<span class="project-date">2025</span></h3>
                     <p>A machine learning-powered Web Application Firewall that detects malicious HTTP requests including SQL Injection and XSS attacks using feature engineering and Logistic Regression models for real-time threat detection.</p>
                     <a href="https://github.com/akn714/ML-Based-WAF" target="_blank" class="github-btn">View on GitHub →</a>
-                    <div class="project-tags">
-                        <span class="tag ai">AI/ML</span>
-                        <span class="tag security">Cybersecurity</span>
-                        <span class="tag">NLP</span>
-                        <span class="tag">Scikit-Learn</span>
-                        <span class="tag">Pandas</span>
-                        <span class="tag">Python</span>
-                    </div>
                 </div>
                 <div class="project">
                     <h3>NYX: Screen Aware Agent<span class="project-date">2025</span></h3>
                     <p>A screen-aware AI assistant capable of analyzing on-screen content using OCR and providing context-aware assistance through voice and command-line interactions to improve developer productivity.</p>
                     <a href="https://github.com/akn714/nyx" target="_blank" class="github-btn">View on GitHub →</a>
-                    <div class="project-tags">
-                        <span class="tag ai">AI Agent</span>
-                        <span class="tag">Computer Vision</span>
-                        <span class="tag">OCR</span>
-                        <span class="tag">OpenCV</span>
-                        <span class="tag">Voice AI</span>
-                        <span class="tag">Python</span>
-                    </div>
-                </div>
-                <div class="project">
-                    <h3>Rocket07 Online Delivery Service System<span class="project-date">2026</span></h3>
-                    <p>A full-stack delivery management platform featuring FastAPI backend, Supabase PostgreSQL database, and Telegram Bot integration for real-time order notifications, tracking, and workflow automation.</p>
-                    <a href="https://rocket07.in/" target="_blank" class="github-btn">View Live →</a>
-                    <a href="https://github.com/akn714/online_delivery_system" target="_blank" class="github-btn">View on GitHub →</a>
-                    <div class="project-tags">
-                        <span class="tag">Full Stack</span>
-                        <span class="tag">FastAPI</span>
-                        <span class="tag">PostgreSQL</span>
-                        <span class="tag">Supabase</span>
-                        <span class="tag">Telegram Bot</span>
-                    </div>
                 </div>
                 <div class="project">
                     <h3>V-Doc (Virtual Doctor)<span class="project-date">2023</span></h3>
                     <p>An AI assistant leveraging medication data to suggest appropriate treatments for various diseases and injuries, balancing efficacy with safety in its recommendations.</p>
                     <a href="https://github.com/akn714/V-Doc" target="_blank" class="github-btn">View on github →</a>
-                    <div class="project-tags">
-                        <span class="tag ai">AI/ML</span>
-                        <span class="tag">RAG</span>
-                        <span class="tag">LangChain</span>
-                        <span class="tag">OpenAI</span>
-                        <span class="tag">Pinecone</span>
-                        <span class="tag">Healthcare AI</span>
-                    </div>
                 </div>
                 <div class="project">
                     <h3>Student Dashboard<span class="project-date">2025</span></h3>
                     <p>A web application featuring an interactive student dashboard, designed for engaging and streamlined access to educational resources and tools.</p>
                     <a href="https://github.com/akn714/Student-Dashboard" target="_blank" class="github-btn">View on github →</a>
-                    <div class="project-tags">
-                        <span class="tag fullstack">Full Stack</span>
-                        <span class="tag">Node.js</span>
-                        <span class="tag">Express.js</span>
-                        <span class="tag">MongoDB</span>
-                        <span class="tag">Dashboard</span>
-                    </div>
                 </div>
                 <div class="project">
                     <h3>Discord AI Bot<span class="project-date">2023</span></h3>
                     <p>A custom-trained Discord AI bot, seamlessly integrating ChatGPT with RAG, tailored to your data for enriched, contextually relevant interactions and responses.</p>
                     <a href="https://github.com/akn714/Discord-AI-Bot" target="_blank" class="github-btn">View on github →</a>
-                    <div class="project-tags">
-                        <span class="tag ai">AI/ML</span>
-                        <span class="tag">RAG</span>
-                        <span class="tag">OpenAI</span>
-                        <span class="tag">LangChain</span>
-                        <span class="tag">Pinecone</span>
-                        <span class="tag">Discord Bot</span>
-                    </div>
                 </div>
                 <div class="project">
                     <h3>COLX (College Olx)<span class="project-date">2025</span></h3>
                     <p>College OLX, A versatile college platform akin to OLX, enabling trade of second-hand items, lost and found posts, and maintenance requests.</p>
                     <a href="https://colx.vercel.app" target="_blank" class="github-btn">View Live →</a>
                     <a href="https://github.com/akn714/colx" target="_blank" class="github-btn">View on github →</a>
-                    <div class="project-tags">
-                        <span class="tag fullstack">Full Stack</span>
-                        <span class="tag">React.js</span>
-                        <span class="tag">Node.js</span>
-                        <span class="tag">Express.js</span>
-                        <span class="tag">MongoDB</span>
-                        <span class="tag">Marketplace</span>
-                    </div>
                 </div>
                 <div class="project">
                     <h3>Chat Room<span class="project-date">2023</span></h3>
                     <p>A dynamic real-time chat app for instant messaging and seamless communication.</p>
                     <a href="https://github.com/akn714/chat-room" target="_blank" class="github-btn">View on github →</a>
-                    <div class="project-tags">
-                        <span class="tag fullstack">Full Stack</span>
-                        <span class="tag">Socket.IO</span>
-                        <span class="tag">Real Time</span>
-                        <span class="tag">Node.js</span>
-                        <span class="tag">Chat App</span>
-                    </div>
                 </div>
                 <div class="project">
                     <h3>YouTube Ad Skipper<span class="project-date">2023</span></h3>
                     <p>A Chrome extension designed to effectively bypass YouTube ads, enhancing your video-watching experience without interruptions.</p>
                     <a href="https://github.com/akn714/YT-Ad-Skipper" target="_blank" class="github-btn">View on github →</a>
-                    <div class="project-tags">
-                        <span class="tag">Chrome Extension</span>
-                        <span class="tag">JavaScript</span>
-                        <span class="tag">Browser Automation</span>
-                        <span class="tag">Web Extension</span>
-                    </div>
                 </div>
                 <div class="project">
                     <h3>Trash N Treasure<span class="project-date">2025</span></h3>
                     <p>A web portal bridging communities and recycling industries, facilitating efficient waste management and promoting environmental sustainability.</p>
                     <a href="https://github.com/akn714/Trash-n-Treasure" target="_blank" class="github-btn">View on github →</a>
-                    <div class="project-tags">
-                        <span class="tag fullstack">Full Stack</span>
-                        <span class="tag">Node.js</span>
-                        <span class="tag">MongoDB</span>
-                        <span class="tag">Socket.IO</span>
-                        <span class="tag">Sustainability</span>
-                    </div>
                 </div>
                 <div class="project">
                     <h3>TelegramGPT<span class="project-date">2023</span></h3>
                     <p>An AI assistant for Telegram, utilizing the Retrieval-Augmented Generation (RAG) model, trained on custom data for enhanced, context-aware responses.</p>
                     <a href="https://github.com/akn714/TelegramGPT" target="_blank" class="github-btn">View on github →</a>
-                    <div class="project-tags">
-                        <span class="tag ai">AI/ML</span>
-                        <span class="tag">RAG</span>
-                        <span class="tag">OpenAI</span>
-                        <span class="tag">LangChain</span>
-                        <span class="tag">Pinecone</span>
-                        <span class="tag">Telegram Bot</span>
-                    </div>
-
                 </div>
                 <div class="project">
                     <h3>AstroBeats<span class="project-date">2023</span></h3>
                     <p>Dive into the cosmos of sound with "AstroBeats", a sleek music website clone offering celestial playlists and personalized music recommendations.</p>
                     <a href="https://github.com/akn714/astrobeats" target="_blank" class="github-btn">View on github →</a>
-                    <div class="project-tags">
-                        <span class="tag frontend">Frontend</span>
-                        <span class="tag">Music App</span>
-                        <span class="tag">JavaScript</span>
-                    </div>
                 </div>
             </div>
         </section>
@@ -276,5 +223,38 @@
     </footer>
 
     <script src="scripts.js"></script>
+    <!-- Resume Modal -->
+    <div id="resume-modal" class="resume-modal">
+        <div class="resume-content">
+            <span class="close-resume">&times;</span>
+
+            <iframe
+                src="./Adarsh Kumar Resume (AI ML Engineer).pdf"
+                width="100%"
+                height="100%"
+                frameborder="0">
+            </iframe>
+        </div>
+    </div>
+    <script>
+        const resumeLink = document.getElementById("resume-link");
+        const resumeModal = document.getElementById("resume-modal");
+        const closeResume = document.querySelector(".close-resume");
+
+        resumeLink.addEventListener("click", (e) => {
+            e.preventDefault();
+            resumeModal.style.display = "block";
+        });
+
+        closeResume.addEventListener("click", () => {
+            resumeModal.style.display = "none";
+        });
+
+        window.addEventListener("click", (e) => {
+            if (e.target === resumeModal) {
+                resumeModal.style.display = "none";
+            }
+        });
+    </script>
 </body>
 </html>
