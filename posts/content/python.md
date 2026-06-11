@@ -181,41 +181,12 @@ square = lambda x: x * x
 
 ## 8. Collections
 
-### List
-- Mutable
-- Ordered
-
-```python
-nums = [1, 2, 3]
-nums.append(4)
-```
-
-### Tuple
-- Immutable
-- Ordered
-
-```python
-point = (10, 20)
-```
-
-### Set
-- Mutable
-- Unordered
-
-```python
-s = {1, 2, 3}
-```
-
-### Dictionary
-- Mutable
-- Ordered
-
-```python
-student = {
-    "name": "John",
-    "age": 20
-}
-```
+| Data Structure | Mutability | Ordering | Example |
+|----------------|------------|----------|---------|
+| List | Mutable | Ordered | `nums = [1, 2, 3]`<br>`nums.append(4)` |
+| Tuple | Immutable | Ordered | `point = (10, 20)` |
+| Set | Mutable | Unordered | `s = {{1, 2, 3}}`<br>`myset = {"apple", "banana", "cherry"}` |
+| Dictionary | Mutable | Ordered | `student = {{`<br>&nbsp;&nbsp;&nbsp;&nbsp;`"name": "John",`<br>&nbsp;&nbsp;&nbsp;&nbsp;`"age": 20`<br>`}}` |
 
 ---
 
